@@ -52,8 +52,8 @@ import java.util.ArrayList;
 public class CousinWare
 {
     public static final String MODID = "cousinware";
-    public static final String NAME = "CousinWare";
-    public static final String VERSION = "v1.7.7";
+    public static final String NAME = "CousinWareReborn";
+    public static final String VERSION = "v1.0.2c";
 
     public static final Logger log = LogManager.getLogger(NAME);
     private EventManager eventManager;
@@ -233,8 +233,8 @@ public class CousinWare
         //
         HackManager.addHack(new AntiRegear());
         HackManager.addHack(new AutoWither());
-        //HackManager.addHack(new BedrockFinder());
-        //HackManager.addHack(new BoatBypass());
+        HackManager.addHack(new BedrockFinder());
+        HackManager.addHack(new BoatBypass());
         HackManager.addHack(new ChatSuffix());
         HackManager.addHack(new ChestStealer());
         HackManager.addHack(new ChestSwap());
@@ -243,7 +243,7 @@ public class CousinWare
         HackManager.addHack(new DungannonSpammer());
         HackManager.addHack(new EnchantColor());
         HackManager.addHack(new FakePlayer());
-        //HackManager.addHack(new HotbarRefill());
+        HackManager.addHack(new HotbarRefill());
         HackManager.addHack(new FancyChat());
         HackManager.addHack(new IllegalFinder());
         HackManager.addHack(new LogoutCoords());
